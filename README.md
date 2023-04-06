@@ -4,7 +4,7 @@ Instructions to run code (please use Eclipse IDE) :
 
 1. Clone this repository to your local machine :
 
-`git clone git@github.com:ssnap03/bds.git`
+`git clone https://github.com/abhishna/textClassification.git`
 
 2. Open Eclipse -> File -> Import project from file system or archive -> browse to the directory named `bds` where you cloned the repository -> open and click finish
 
