@@ -1,0 +1,126 @@
+Using cosine similarity :
+For k = 24 ,accuracy = 40.0 %
+For k = 23 ,accuracy = 50.0 %
+For k = 22 ,accuracy = 70.0 %
+For k = 21 ,accuracy = 70.0 %
+For k = 20 ,accuracy = 70.0 %
+For k = 19 ,accuracy = 80.0 %
+For k = 18 ,accuracy = 80.0 %
+For k = 17 ,accuracy = 90.0 %
+For k = 16 ,accuracy = 80.0 %
+For k = 15 ,accuracy = 90.0 %
+For k = 14 ,accuracy = 90.0 %
+For k = 13 ,accuracy = 80.0 %
+For k = 12 ,accuracy = 80.0 %
+For k = 11 ,accuracy = 80.0 %
+For k = 10 ,accuracy = 90.0 %
+For k = 9 ,accuracy = 80.0 %
+For k = 8 ,accuracy = 80.0 %
+For k = 7 ,accuracy = 80.0 %
+For k = 6 ,accuracy = 100.0 %
+For k = 5 ,accuracy = 100.0 %
+For k = 4 ,accuracy = 90.0 %
+For k = 3 ,accuracy = 100.0 %
+For k = 2 ,accuracy = 90.0 %
+For k = 1 ,accuracy = 100.0 %
+Using cosine similarity : K value with maximum accuracy of 100.0% is 6
+
+Using Euclidean Distance :
+For k = 24 ,accuracy = 40.0 %
+For k = 23 ,accuracy = 40.0 %
+For k = 22 ,accuracy = 40.0 %
+For k = 21 ,accuracy = 40.0 %
+For k = 20 ,accuracy = 40.0 %
+For k = 19 ,accuracy = 40.0 %
+For k = 18 ,accuracy = 50.0 %
+For k = 17 ,accuracy = 30.0 %
+For k = 16 ,accuracy = 50.0 %
+For k = 15 ,accuracy = 50.0 %
+For k = 14 ,accuracy = 30.0 %
+For k = 13 ,accuracy = 20.0 %
+For k = 12 ,accuracy = 30.0 %
+For k = 11 ,accuracy = 20.0 %
+For k = 10 ,accuracy = 70.0 %
+For k = 9 ,accuracy = 60.0 %
+For k = 8 ,accuracy = 60.0 %
+For k = 7 ,accuracy = 60.0 %
+For k = 6 ,accuracy = 40.0 %
+For k = 5 ,accuracy = 40.0 %
+For k = 4 ,accuracy = 40.0 %
+For k = 3 ,accuracy = 50.0 %
+For k = 2 ,accuracy = 50.0 %
+For k = 1 ,accuracy = 70.0 %
+Using Euclidean Distance : K value with maximum accuracy of 70.0% is 10
+choosing cosine similarity with k = 6 as the best model
+predictions : 
+predicted class for file unknown03.txt is C1 and actual label is C1
+predicted class for file unknown09.txt is C4 and actual label is C4
+predicted class for file unknown10.txt is C4 and actual label is C4
+predicted class for file unknown08.txt is C7 and actual label is C7
+predicted class for file unknown06.txt is C4 and actual label is C4
+predicted class for file unknown05.txt is C4 and actual label is C4
+predicted class for file unknown07.txt is C7 and actual label is C7
+predicted class for file unknown04.txt is C1 and actual label is C1
+predicted class for file unknown01.txt is C1 and actual label is C1
+predicted class for file unknown02.txt is C1 and actual label is C1
+					 Confusion matrix :
+					    Actual Labels
+				________________________________________________________________________________
+	 Predicted Labels |		C4			C7			C1			
+				________________________________________________________________________________
+
+
+			C4 |		4			0			0	
+
+			C7 |		0			4			0	
+
+			C1 |		0			0			2	
+
+class : C4 : 
+Precision = 1.0
+Recall = 1.0
+
+F1 Score = 1.0
+
+class : C7 : 
+Precision = 1.0
+Recall = 1.0
+
+F1 Score = 1.0
+
+class : C1 : 
+Precision = 1.0
+Recall = 1.0
+
+F1 Score = 1.0
+
+Running Fuzzy KNN with best K value found above using cosine similarity : 
+Document src/data/unknown/unknown05.txt belongs to class C4 with  probability 1.0
+
+Document src/data/unknown/unknown06.txt belongs to class C4 with  probability 0.8333333333333334
+Document src/data/unknown/unknown06.txt belongs to class C1 with  probability 0.16666666666666666
+
+Document src/data/unknown/unknown07.txt belongs to class C7 with  probability 1.0
+
+
+Document src/data/unknown/unknown02.txt belongs to class C1 with  probability 1.0
+
+Document src/data/unknown/unknown08.txt belongs to class C7 with  probability 1.0
+
+Document src/data/unknown/unknown01.txt belongs to class C1 with  probability 1.0
+
+Document src/data/unknown/unknown03.txt belongs to class C1 with  probability 0.5
+Document src/data/unknown/unknown03.txt belongs to class C4 with  probability 0.16666666666666666
+Document src/data/unknown/unknown03.txt belongs to class C7 with  probability 0.3333333333333333
+
+
+
+Document src/data/unknown/unknown10.txt belongs to class C1 with  probability 0.5
+Document src/data/unknown/unknown10.txt belongs to class C4 with  probability 0.5
+
+
+Document src/data/unknown/unknown09.txt belongs to class C4 with  probability 0.8333333333333334
+Document src/data/unknown/unknown09.txt belongs to class C1 with  probability 0.16666666666666666
+
+
+Document src/data/unknown/unknown04.txt belongs to class C1 with  probability 1.0
