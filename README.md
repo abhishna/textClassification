@@ -18,5 +18,7 @@ Instructions to run code (please use Eclipse IDE) :
 
 7. If you wish to test on another test set, please put the files in a folder and set the testdir variable with the correct path, for example, if you put the files under src/data/test, set testdir to "/src/data/test/"
    you will also need to update the csv file "src/data/labels.csv" with your test file names and actual labels.
+   
+8. Output screenshots and a txt file containing the accuracy for various values of k and choice of best k can be found in the outputs directory
  
 
